@@ -1,3 +1,8 @@
+Here's a complete `README.md` file for your **Personal Finance Tracker** project based on the provided code:
+
+---
+
+```markdown
 # Personal Finance Tracker (Python)
 
 This is a **Python-based Personal Finance Tracker** designed to help users manage their daily transactions easily. It offers both **Command Line Interface (CLI)** and **Graphical User Interface (GUI)** using `Tkinter`.
@@ -16,10 +21,14 @@ This is a **Python-based Personal Finance Tracker** designed to help users manag
 
 ## Folder Structure
 
-PythonCW_Y1/
-├── main.py # Main script to run the tracker
-├── transactions.json # Automatically created transaction data file
-└── README.md # Project overview and guide
+```
+
+PythonCW\_Y1/
+├── main.py                 # Main script to run the tracker
+├── transactions.json       # Automatically created transaction data file
+└── README.md               # Project overview and guide
+
+````
 
 ---
 
@@ -39,9 +48,21 @@ PythonCW_Y1/
 ```bash
 git clone https://github.com/your-username/Personal-Finance-Tracker.git
 cd Personal-Finance-Tracker
+````
 
+### Step 2: Run the program
+
+```bash
 python main.py
+```
 
+You will be shown a **menu** to choose CLI features or load the **GUI**.
+
+---
+
+## CLI Menu Options
+
+```
 1. Add Transaction
 2. View Transactions
 3. Delete Transaction
@@ -49,12 +70,33 @@ python main.py
 5. Transaction Menu (GUI)
 6. Display Summary
 7. Save and Quit
+```
 
-#### Author
+---
 
-Deshan Chinthaka
-University of IIT
+## GUI Features (Tkinter)
 
-##### License
+* View all transactions in a table
+* Clickable sorting for Description, Amount, Date
+* Search by category or date
+* Scrollbar-enabled TreeView display
+
+---
+
+## Author
+
+**Deshan Chinthaka**
+*University of IIT*
+
+---
+
+## License
+
+This project is free to use for educational purposes.
+
+---
+
+```
 
 Let me know if you'd like me to generate a downloadable `README.md` file or help push your code to GitHub with Git commands.
+```
