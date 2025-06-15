@@ -1,25 +1,29 @@
-# 💰 Personal Finance Tracker (Python)
+# Personal Finance Tracker (Python)
 
 This is a **Python-based Personal Finance Tracker** designed to help users manage their daily transactions easily. It offers both **Command Line Interface (CLI)** and **Graphical User Interface (GUI)** using `Tkinter`.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📥 Add, view, update, and delete transactions
-- 📁 Persistent data storage using `transactions.json`
-- 🔍 Search and sort transactions (GUI)
-- 📊 Display summary of spending per category
-- 🧑‍💻 User-friendly CLI and GUI interfaces
-
----
-
-## 📂 Folder Structure
-
+- Add, view, update, and delete transactions
+- Persistent data storage using `transactions.json`
+- Search and sort transactions (GUI)
+- Display summary of spending per category
+- User-friendly CLI and GUI interfaces
 
 ---
 
-## 🛠️ Technologies Used
+## Folder Structure
+
+PythonCW_Y1/
+├── main.py # Main script to run the tracker
+├── transactions.json # Automatically created transaction data file
+└── README.md # Project overview and guide
+
+---
+
+## Technologies Used
 
 - Python 3
 - `json` for file storage
@@ -28,9 +32,9 @@ This is a **Python-based Personal Finance Tracker** designed to help users manag
 
 ---
 
-## 📌 How to Run
+## How to Run
 
-### 💻 Step 1: Clone or Download
+### Step 1: Clone or Download
 
 ```bash
 git clone https://github.com/your-username/Personal-Finance-Tracker.git
@@ -46,9 +50,11 @@ python main.py
 6. Display Summary
 7. Save and Quit
 
-Author
+#### Author
+
 Deshan Chinthaka
 University of IIT
 
+##### License
 
 Let me know if you'd like me to generate a downloadable `README.md` file or help push your code to GitHub with Git commands.
